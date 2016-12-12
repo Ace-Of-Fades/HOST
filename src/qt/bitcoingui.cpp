@@ -231,8 +231,8 @@ void BitcoinGUI::createActions()
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
     tabGroup->addAction(overviewAction);
 
-    sendCoinsAction = new QAction(QIcon(":/icons/send2"), tr("&Transfer"), this);
-    sendCoinsAction->setToolTip(tr("Send space to another address"));
+    sendCoinsAction = new QAction(QIcon(":/icons/send2"), tr("&Send"), this);
+    sendCoinsAction->setToolTip(tr("Transfer space to another address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -243,7 +243,7 @@ void BitcoinGUI::createActions()
     receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(receiveCoinsAction);
 
-    historyAction = new QAction(QIcon(":/icons/history2"), tr("&Transfers"), this);
+    historyAction = new QAction(QIcon(":/icons/history2"), tr("&Histroy"), this);
     historyAction->setToolTip(tr("Shows a timeline of past transfers"));
     historyAction->setCheckable(true);
     historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));

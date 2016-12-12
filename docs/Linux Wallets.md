@@ -2,6 +2,10 @@ Linux  Building
 ===============
 Built on Ubuntu 14.04 (Trusty)
 ### DAEMON
+Obtain root access:
+```
+su
+```
 Update dependancy repository:
 ```
 apt-get update
@@ -46,6 +50,10 @@ When you log back in, you will be able to start the daemon by simply typing:
 HOSTd
 ```
 ### QT
+Obtain root access:
+```
+su
+```
 Update dependancy repository:
 ```
 apt-get update
